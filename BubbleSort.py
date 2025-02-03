@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from IPython.display import clear_output
 
+# Was planning to make the numbers in array glow, doesnt work for some reasons
 def display_array(arr, index1, index2):
     highlighted_array = ""
     for i, value in enumerate(arr):
